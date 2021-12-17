@@ -186,6 +186,7 @@ int main (int argc, char * argv[]) {
     while (x != -1){
         list_delete_el (a, x);
         fscanf (input, "%d", &x);
+        akshfvass
     }
     fclose (input);
     FILE * out = fopen ("output.txt", "w");
